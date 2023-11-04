@@ -1,6 +1,6 @@
 import numpy as np
 from .common import delta_lookup, fit_func
-from skimage.util import crop, pad
+from skimage.util import crop
 from skimage.transform import resize, warp
 
 npa = np.array
